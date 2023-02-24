@@ -23,5 +23,5 @@ at which your two devices will communicating over serial
 ##### *check if hook everything right*
 ![](./pics/adc_serial_check.png)
 
-![](./pics/Arduinojoystick.jpg)
 ![](./pics/Arduinodone.jpg)
+![](./pics/Arduinojoystick.jpg)
