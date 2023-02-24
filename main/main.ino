@@ -1,5 +1,7 @@
 #define joyY A1
 #define joyX A0
+#define RED_LED A2
+#define GREEN_LED A3
 
 void setup() {
   // put your setup code here, to run once:
@@ -14,8 +16,6 @@ void loop() {
 	yValue = analogRead(joyY);
 
 
-	Serial.print(xValue);
-	Serial.print("\t");
-	Serial.print(yValue);
-	Serial.print("\n");
+  analogWrite(RED_LED ,xValue);
+  analogWrite(GREEN_LED, yValue);
 }
